@@ -1,0 +1,113 @@
+
+.banner {
+    background-image: url("img-evolucao/banner.jpg");
+    filter: brightness(100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 660px;
+    width: 100%; 
+}
+
+.banner::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background:#862eaf;
+    opacity: .7;
+    z-index: -999;
+
+}
+.container{
+    width: 100%;
+    margin:  0px auto;  
+}
+
+.title {
+   
+    color: #fff;
+    font-size: 33px;
+    padding: 100px 440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav {
+    background-color: #862eaf;
+    color: white; 
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container nav h1 {
+    margin: 18px;
+    font-size: 39px;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.container ul li {
+    font-size: 16px;
+    padding: 1.0rem;
+}
+
+.container ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.container ul li a:hover {
+    border-bottom: yellowgreen solid 2px;
+}
+.iphone {
+    width: 30%;
+    border-radius: 31px;
+}
+p {
+    color: #fff;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.logo {
+    background: #450363;
+    display: flex;
+    flex-direction: row;
+    padding: 2px  19px;
+    border-radius: 10px;
+}
+
+/* .container i{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 52px;
+    margin: -17px;
+    padding: 0px 50px;
+}*/
+
+.logo-2{
+    background: #450363;
+    position: absolute;
+    top: 510px;
+    left: 500px;
+    padding: 2px  19px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
