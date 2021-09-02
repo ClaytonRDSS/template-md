@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.redes h4{
+    text-align: center;
+    font-size: 40px;
+}
+.redes p{
+    text-align: center;
+    font-size: 40px;
+}
