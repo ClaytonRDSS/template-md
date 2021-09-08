@@ -1,0 +1,32 @@
+
+#devices{
+    background: url("../img-evolucao/825803193b6458f.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 785px;
+}
+
+.devices{
+    padding: 100px 300px;
+    
+}
+.devices img{
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 207px;
+    margin-right: 207px
+} 
+
+.devices h4{
+    color: rgb(39, 22, 71);
+    font-size: 20px;
+    text-align: center;
+}
+
+.devices p{
+    color: rgb(53, 52, 51);
+    font-size: 16px;
+    margin: 26px auto;
+    line-height: 26px;
+    text-align: center;
+}

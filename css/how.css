@@ -1,0 +1,31 @@
+
+#how{
+    background: url("../img-evolucao/mesh-network-5b9a887f46e0fb00251f25e0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+
+.how{
+    padding: 70px 300px;
+}
+
+.how h4{
+    color: rgb(247, 246, 248);
+    font-size: 20px;
+    text-align: center;
+}
+
+.how p{
+    color: rgb(245, 242, 239);
+    font-size: 16px;
+    margin: 26px auto;
+    line-height: 26px;
+    text-align: center;
+}
+
+.how img{
+    color: rgb(253, 252, 250);
+    margin-left: 603px;
+    margin-right: 603px
+}

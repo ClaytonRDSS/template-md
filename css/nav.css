@@ -1,0 +1,47 @@
+
+.title{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background-color: #862eaf;
+    color: rgb(255, 255, 255);  
+    padding: 0 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+}
+
+
+nav h1{
+    font-size: 39px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    font-size: 16px;
+    padding: 1.0rem;
+}
+
+ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+ul li a:hover{
+    border-bottom: rgb(211, 86, 228) solid 2px;
+}
