@@ -1,0 +1,54 @@
+.amazing{
+    width: 100%;
+    padding: 0 300px;
+}
+
+.amazing h2{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: rgb(34, 32, 32);
+}
+.amazing p{
+    font-size: 16px;
+    color: rgb(26, 25, 25);
+    text-align: center;
+}
+
+#amazing {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 0 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-01, .card-02, .card-03, .card-04, .card-05, .card-06{
+    padding: 50px;
+    text-align: center;
+}
+h5{
+    font-size: 18px;
+    color: rgb(31, 29, 29);
+    margin-bottom: 10px;
+}
+
+
+h5 p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(27, 27, 27);
+}
+
+.card-img img{
+    width: 340px;
+    align-items: center;
+}
+.card-01, .card-02, .card-03, .card-04, .card-05, .card-06, .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 28px;
+}

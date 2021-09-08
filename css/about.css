@@ -5,6 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background: rgb(228, 225, 225);
 }
 
 .about img{
@@ -23,4 +24,14 @@
     font-size: 16px;
     line-height: 30px;
     margin: 30px auto;
+}
+.about button{
+    color: rgb(223, 217, 217);
+}
+.btn-02{
+    width: 100px;
+    height: 30px;
+    border: solid 1px;
+    background: rgb(27, 27, 27);
+    border-radius:  6px;
 }
